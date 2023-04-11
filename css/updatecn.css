@@ -1,0 +1,22 @@
+.wrap-connectnew {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0px;
+}
+.wrap-connectnew .dest-text p {
+  text-align: justify;
+}
+.wrap-connectnew .box-connectnew a {
+  color: #0000cc;
+}
+header nav ul ul {
+  display: none !important;
+}
+@media (max-width: 1024px) {
+  .menu-mobile {
+    display: block;
+  }
+  header .navigation {
+    display: none;
+  }
+}
