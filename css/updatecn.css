@@ -9,6 +9,26 @@
 .wrap-connectnew .box-connectnew a {
   color: #0000cc;
 }
+.wrap-connectnew .box-connectnew h2 {
+  text-align: center;
+}
+table,
+td,
+th {
+  border: 1px solid #ccc;
+}
+th {
+  text-align: center;
+}
+td,
+th {
+  padding: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
 header nav ul ul {
   display: none !important;
 }
