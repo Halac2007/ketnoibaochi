@@ -12,22 +12,27 @@
 .wrap-connectnew .box-connectnew p {
   text-align: center;
 }
-table,
-td,
-th {
-  border: 1px solid #ccc;
-}
-th {
-  text-align: center;
-}
-td,
-th {
-  padding: 10px;
-}
 
 table {
   width: 100%;
   border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+}
+table,
+td,
+th {
+  border: 1px solid #b5b5b551;
+  background: #f5f7f745;
+}
+table th {
+  text-align: center;
+  background: #9c9e9e4e;
+  color: #017ec6;
+}
+table td,
+table th {
+  padding: 10px;
 }
 
 header nav ul ul {
@@ -48,7 +53,7 @@ header nav ul ul {
   }
   td,
   th {
-    padding: 4px !important;
+    padding: 8px !important;
   }
   table td:first-child {
     display: none;
