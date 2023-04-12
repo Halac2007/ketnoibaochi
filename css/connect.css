@@ -1,4 +1,4 @@
-.wrap-connectnew {
+.box-table {
   width: 80%;
   margin: auto;
   padding: 20px 0px;
@@ -24,6 +24,7 @@ td,
 th {
   padding: 10px;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -38,5 +39,30 @@ header nav ul ul {
   }
   header .navigation {
     display: none;
+  }
+}
+@media (max-width: 767px) {
+  .box-table {
+    width: 90%;
+    margin: auto;
+  }
+  td,
+  th {
+    padding: 4px !important;
+  }
+  table td:first-child {
+    display: none;
+  }
+  table th:first-child {
+    display: none;
+  }
+  tr td:nth-child(2) {
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .box-table {
+    width: 100%;
+    margin: auto;
   }
 }
