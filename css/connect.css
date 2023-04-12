@@ -56,13 +56,34 @@ header nav ul ul {
   table th:first-child {
     display: none;
   }
-  /* tr td:nth-child(2) {
+  table td:nth-child(2) {
     text-align: center;
-  } */
+  }
 }
 @media (max-width: 480px) {
   .box-table {
     width: 100%;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  table th {
+    width: 200px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 1rem;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
   }
 }
