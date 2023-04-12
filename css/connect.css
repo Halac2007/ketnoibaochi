@@ -67,7 +67,7 @@ header nav ul ul {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
   table th {
     width: 200px;
   }
