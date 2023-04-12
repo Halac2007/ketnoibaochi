@@ -56,9 +56,9 @@ header nav ul ul {
   table th:first-child {
     display: none;
   }
-  tr td:nth-child(2) {
+  /* tr td:nth-child(2) {
     text-align: center;
-  }
+  } */
 }
 @media (max-width: 480px) {
   .box-table {
